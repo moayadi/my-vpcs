@@ -10,7 +10,7 @@ variable "owner" {
 }
 
 variable "ttl" {
-    default  = "8"
+    default  = "12"
 }
 
 
