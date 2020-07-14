@@ -27,7 +27,7 @@ variable "configuration" {
       vpc_cidr = "10.0.0.0/16",
       nat_gateway = "false",
       vpn_gateway = "false",
-      classfication = "public",
+      classification = "public",
       team = "NetworkTeam"
     }
     test = { # STAGING VARIABLES
@@ -36,7 +36,7 @@ variable "configuration" {
       vpc_cidr = "10.0.0.0/16",
       nat_gateway = "false",
       vpn_gateway = "false",
-      classfication = "internal",
+      classification = "internal",
       team = "NetworkTeam"
     }
     prod = { # PRODUCTION VARIABLES
@@ -45,7 +45,7 @@ variable "configuration" {
       vpc_cidr = "10.0.0.0/16",
       nat_gateway = "false"
       vpn_gateway = "false",
-      classfication = "confidential",
+      classification = "confidential",
       team = "NetworkTeam"
     }
   }
