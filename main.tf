@@ -43,6 +43,6 @@ resource "aws_instance" "web" {
 
 
   tags = {
-    Name = "BastionHost"
+    Name = ""
   }
 }
