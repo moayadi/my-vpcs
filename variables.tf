@@ -27,7 +27,7 @@ variable "configuration" {
       vpc_cidr = "10.0.0.0/16",
       nat_gateway = "false",
       vpn_gateway = "false",
-      classification = "internal",
+      classification = "public",
       team = "NetworkTeam"
     }
     test = { # STAGING VARIABLES
