@@ -1,5 +1,5 @@
 #
-# The name of the environment, should be set on the TFC workspace
+# The name of the environment, should be set on the ws-hashicat workspace
 #
 variable "environment" {
     default = "dev"
